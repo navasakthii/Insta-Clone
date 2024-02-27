@@ -1,6 +1,6 @@
 *{
     margin: 0;
-     padding: 0;
+    padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
 }
@@ -9,10 +9,10 @@
 header{
     display: flex;
     justify-content: space-between;
-        align-items: center;
+    align-items: center;
     padding : 10px 18%;
     border-bottom : 1px solid rgba(219,219,219,1);
-        background-color: white;
+    background-color: white;
     
 
 }
@@ -23,14 +23,14 @@ header .logo{
 header  .logo img{
     height: 29px;
     object-fit: contain;
-    }
+}
 header .search-box{
     width: 250px;
     background-color:rgba(239,239,239, 1);
     padding: 3px 16px;
     display: flex;
     align-items: center;
-    border: radius 8px; ;
+    border-radius: 8px;
 }
 header .search-box input{
     height: 30px;
@@ -39,17 +39,17 @@ header .search-box input{
     background-color: rgba(239,239,239,1);
     padding-left: 10px;
     font-size: 15px;
-    color: #8e8e8e; 
-    
+    color: #8e8e8e;
 
-}
+
+} 
 header nav ul{
     list-style: none;
     display: flex;
 }
 header nav ul li{
 
-    margin-right: 20px;
+ margin-right: 20px;
 }
 header nav ul li:last-child{
     margin-right: 0;
@@ -58,14 +58,14 @@ header nav ul li a img{
     width: 22px;
     height: 22px;
     border-radius: 50%;
-    object-fit: cover;
+    object-fit: cover; 
 }
-header nav ul li a{
-   font-size: 22px; 
-   color: rgba(38,38,38,1);
+header nav ul li a i{
+    font-size: 22px;
+    color:rgba(38,38,38,1);
 }
 
- 
+
 /*Body Section*/
 
 section{
@@ -74,7 +74,7 @@ section{
     display: flex;
 }
 .left-side{
-  width: 65%; 
+    width: 65%;
 }
 .story{
     display: flex;
@@ -84,61 +84,53 @@ section{
     border-radius: 3px;
 }
 .story .stories{
-    width: 17%;
+    width: 17%;  
 }
 .story .stories a img{
- border-radius: 50%;
- border:2px solid #c62d8f;  
- padding: 1px;
- object-fit: cover;
+    border-radius: 50%;
+    border:2px solid #c62d8f;
+    padding: 1px;
+    object-fit: cover;
 }
 .story .stories p{
     width:90%;
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
-    color: #262626;
-}
+    color: #262626;      
+} 
 
+/*Posts*/
 
-
-/*post*/
-
-.post{
+.posts{
     margin: 25px 0;
     background-color: white;
     border: 1px solid rgba(219,219,219,1);
     border-radius: 3px;
 }
-.post .post-title{
+.posts .post-title{
     display: flex;
     justify-content: space-between;
     align-items:center;
     padding: 16px;
 }
-.post .post-title .post-left{
+.posts .post-title .post-left{
     display: flex;
     align-items: center;
 }
-    .post .post-title .post-left .image{
-        margin-right: 15px;
-
-
-    }
-    .post .post-title .post-left .image img {
-        border-radius: 50%;
-        object-fit: contain
-    
+.posts .post-title .post-left .image img{
+    border-radius: 50%;
+    object-fit: contain;
 }
-.post .post-title .post-left .details .name{
+ .posts .post-title .post-left .details .name{
     padding-bottom: 2px;
     font-weight: bold;
-}
-
-.posts .post-content img{
+ }
+ .post .post-content img{
     width: 100%;
     height: 100%;
-}
+    object-fit: cover;
+    }
 
 
 
@@ -178,5 +170,5 @@ section{
 
 
 .right-side{
-   width: 35%; 
-}
+    width: 35%; 
+    }
