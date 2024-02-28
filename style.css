@@ -251,5 +251,32 @@ section{
  .right-side .profile-title .profile-left .details .name{
     padding-bottom: 3px;
  }
+ .suggestions{
+    display: flex;
+    margin-top: 25px;
+    margin-bottom: 20px;
+ }
+ .suggestions p{
+    margin-right: 90px;
+ }
+ 
+ suggestion-tittle{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+ }
+ .suggestion-title .suggestion-left{
+    display: flex;
+    align-items: center;
+    margin-right: 60px;
+ }
+ .suggestion-title .suggestion-left .left .image img{
+    border-radius: 50%;
+    margin-right: 15px;
+    object-fit: cover;
+ }
+ .suggestion-title .suggestion-left .details .name{
+    padding-bottom: 3px;
+ }
 
 
