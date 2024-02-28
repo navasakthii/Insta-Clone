@@ -289,4 +289,37 @@ section{
 }
 
 
-  
+  /*media queries*/
+
+
+  @media ( max-width:99px) {
+    header{
+        padding: 10px 20px;
+    }
+    section .left-side{
+        width: 100;
+    }
+    section .right-side{
+        display: none;
+  }
+
+
+
+  @media (max-width:768px){
+    header .search-box{
+        display: none;
+    }
+    section{
+        padding:30px 20px;
+    }
+
+  }
+
+  @media(max-width:576px){
+    .story .stories{
+        width: 25%;
+    }
+    header nav ul li{
+      margin-right:10px 
+    }
+  }
