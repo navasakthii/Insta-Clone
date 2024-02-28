@@ -228,5 +228,28 @@ section{
 
 
 .right-side{
-    width: 35%; 
+    width: 35%;
+    margin-top: 15px; 
+    position:fixed;
+    right:30px;
+
     }
+ .right-side .profile-title{
+    display: flex;
+    align-items: center;
+
+ }  
+ .right-side .profile-title .profile-left{
+    display: flex;
+    align-items: center;
+    margin-right: 40px;
+ } 
+ .right-side .profile-title .profile-left .image img{
+    border-radius: 50%;
+    margin-right: 15px;
+ }
+ .right-side .profile-title .profile-left .details .name{
+    padding-bottom: 3px;
+ }
+
+
